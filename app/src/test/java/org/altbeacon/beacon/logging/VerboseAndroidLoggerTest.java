@@ -34,7 +34,7 @@ import static junit.framework.Assert.assertEquals;
  *
  * @author Andrew Reitz
  */
-@Config(sdk = 27, manifest = Config.NONE)
+@Config(sdk = 28, manifest = Config.NONE)
 @RunWith(RobolectricTestRunner.class)
 public class VerboseAndroidLoggerTest {
     private String tag = getClass().getName();
